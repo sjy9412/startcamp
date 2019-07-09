@@ -12,4 +12,4 @@ with open('number2.txt','w') as file:
     for number in numbers:
         file.write(number)
 
-# Alt+방향키 하면 해당하는 줄이 이동함.
+# Alt + 방향키 하면 해당하는 줄이 이동함. 
