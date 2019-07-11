@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- jinja2 : 템플릿 엔진 -->
+    <!-- {# {% %} 로직 코드 #} -->
+    <!-- {# {{ }} 출력 코드 #} -->
+    <!-- 위에 두개는 그냥 주석처리하면 안됌 -->
+    {% if name == '안녕' %}
+        <h1>{{name}} hello</h1>
+    {% else %}
+        <h2>{{name}} 안녕</h2>
+    {% endif %}
+</body>
+</html>
